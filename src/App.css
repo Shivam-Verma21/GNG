@@ -3782,7 +3782,7 @@ fieldset:disabled .btn {
 .collapse:not(.show) {
   display: none;
 }
-.collapse.show{
+.collapse.show {
   display: block;
 }
 .collapsing {
@@ -4339,7 +4339,7 @@ fieldset:disabled .btn {
 .sub-menu-mobile-options {
   background-color: #393939;
   font-size: 20px;
-  color: #fff
+  color: #fff;
 }
 
 @media (prefers-reduced-motion: reduce) {

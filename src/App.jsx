@@ -13,7 +13,7 @@ function App() {
       {/* <div className="font-awesome"></div> */}
       {/* <div style={{ color: 'red', fontSize: '20px', margin: '10px', backgroundColor: 'lightblue' }}>
         Inline styles in React!
-      </div> */}
+      </div> */} 
     </>
   )
 }
