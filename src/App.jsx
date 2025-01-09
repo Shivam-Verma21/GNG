@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Whatsapp from './components/Whatsapp/Whatsapp'
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Header />
+      <Hero/>
       <ScrollToTop/>
       <Whatsapp/>
 

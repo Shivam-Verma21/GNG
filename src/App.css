@@ -13806,12 +13806,12 @@ h6 {
   }
 }
 .hero-social a {
-  color: var(--ygency-secondary-color);
+  color: rgb(255, 255, 255);
   text-transform: capitalize;
   -webkit-writing-mode: vertical-lr;
 }
 .hero-social a:hover {
-  color: var(--ygency-primary-color);
+  color: rgb(85, 230, 165);
   text-decoration: underline;
 }
 .hero-social a i {
