@@ -6,7 +6,7 @@ import bgvideo from "../../assets/videos/bg-video.mp4"
 
 const Hero = () => {
     return (
-        <div>
+        <div style={{overflowX : 'hidden'}}>
             <section className="hero-area pt-185 rpt-150 rel z-1">
                 <div className="container-fluid">
                     <div className="row">
