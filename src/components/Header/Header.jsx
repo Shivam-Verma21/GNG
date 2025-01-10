@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../../App.css'
 import logo from '../../assets/images/logo.png'
 import toggler from "../../assets/images/toggler.svg"
@@ -7,10 +7,26 @@ const Header = () => {
     const [navbar, setNavbar] = useState(false)
     const [servicesDropdown, setServicesDropdown] = useState(false)
     const [councilDropdown, setCouncilDropdown] = useState(false)
+    const [isHeaderScrolled, setIsHeaderScrolled] = useState(false)
     const [sidebar, setSidebar] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsHeaderScrolled(true)
+            }
+            else {
+                setIsHeaderScrolled(false)
+            }
+        }
+        window.addEventListener('scroll', handleScroll);
+
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [])
+
     return (
         <div>
-            <header className="main-header menu-absolute">
+            <header className={`main-header menu-absolute ${isHeaderScrolled ? 'fixed-header' : ''}`}>
                 <div className="header-upper">
                     <div className="container container-1620 clearfix">
                         <div className="header-inner rpy-10 rel d-flex align-items-center">
@@ -129,7 +145,7 @@ const Header = () => {
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                
+
                                                 <li className="dropdown">
                                                     <a href="/">Portfolio</a>
                                                 </li>
@@ -182,7 +198,7 @@ const Header = () => {
                                                         </ul>
                                                     </ul>
                                                     <div className="dropdown-btn">
-                                                    <span className="far fa-plus" onClick={() => setCouncilDropdown(!councilDropdown)} />
+                                                        <span className="far fa-plus" onClick={() => setCouncilDropdown(!councilDropdown)} />
                                                     </div>
                                                 </li>
 
