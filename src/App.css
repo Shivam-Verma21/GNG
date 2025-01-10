@@ -17832,13 +17832,13 @@ blockquote .blockquote-footer:before {
   opacity: 0.75;
 }
 .what-we-do-item:hover {
-  border-bottom-color: var(--ygency-primary-color);
+  border-bottom-color: #55e6a5;
 }
 .what-we-do-item:hover .number span,
 .what-we-do-item:hover .number2 span {
   color: #000;
-  background: var(--ygency-primary-color);
-  border-color: var(--ygency-primary-color);
+  background: #55e6a5;
+  border-color: #55e6a5;
 }
 .what-we-do-item2 {
   padding-bottom: 35px;
@@ -17882,8 +17882,8 @@ blockquote .blockquote-footer:before {
 .what-we-do-item2:hover .number span,
 .what-we-do-item2:hover .number2 span {
   color: #000;
-  background: var(--ygency-primary-color);
-  border-color: var(--ygency-primary-color);
+  background: #55e6a5;
+  border-color: #55e6a5;
 }
 .what-we-do-area:after {
   z-index: -1;
