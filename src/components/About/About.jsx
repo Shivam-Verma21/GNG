@@ -5,7 +5,7 @@ import circle from "../../assets/images/circle.svg"
 const About = () => {
     return (
         <div>
-            <section className="about-area pt-130 rel z-1">
+            <section className="about-area pt-130 rpt-50 rel z-1">
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-xl-5 col-lg-3">
