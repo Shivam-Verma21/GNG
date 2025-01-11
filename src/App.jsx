@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Headline1 from './components/Headline/Headline1'
 import Hero from './components/Hero/Hero'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Stats from './components/Stats/Stats'
 import What_we_do from './components/What_we_do/What_we_do'
 import Whatsapp from './components/Whatsapp/Whatsapp'
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Headline1 />
       <What_we_do />
+      <Stats />
       <ScrollToTop />
       <Whatsapp />
 
