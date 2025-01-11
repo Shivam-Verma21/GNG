@@ -4,7 +4,7 @@ import image from "../../assets/images/what-we-do.png"
 
 const What_we_do = () => {
   return (
-    <div>
+    <div style={{overflowX : 'hidden'}}>
       <section className="what-we-do-area pt-70 rpt-70 rel z-1">
         <div className="container">
           <div className="row justify-content-between">
