@@ -77,6 +77,7 @@ const Footer = () => {
                                     >
                                         <span
                                             className="__cf_email__"
+                                            // style={{ position: 'relative', left: 0 }}
                                         >
                                             sales@gnginfotech.com
                                         </span>
@@ -171,9 +172,9 @@ const Footer = () => {
                             <div className="col-xl-5 col-lg-6">
                                 <div className="copyright-text text-lg-end pt-40 pb-35 rpt-10">
                                     <p>
-                                        Copyright @2024,&nbsp;
-                                        {/* */}
-                                        <a href="/">G&G Innovations.</a>&nbsp;
+                                        Copyright @2024,
+                                        {/* */}&nbsp;
+                                        <a href="/">G&G Innovations. </a>
                                         {/* */}All Rights Reserved
                                     </p>
                                 </div>

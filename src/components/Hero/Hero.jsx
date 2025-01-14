@@ -6,7 +6,7 @@ import bgvideo from "../../assets/videos/bg-video.mp4"
 
 const Hero = () => {
     return (
-        <div style={{overflowX : 'hidden'}}>
+        <div style={{ overflowX: 'hidden', overflowY: 'hidden' }}>
             <section className="hero-area pt-185 rpt-150 rel z-1">
                 <div className="container-fluid">
                     <div className="row">
@@ -30,7 +30,7 @@ const Hero = () => {
                     <div className="hero-bottom-image">
                         <div className="video-container">
                             <video preload='auto' autoPlay loop muted style={{ width: '100%', height: '100%' }}>
-                                <source src={bgvideo} type='video/mp4'/>
+                                <source src={bgvideo} type='video/mp4' />
                             </video>
                         </div>
                         <div className="hero-social">
