@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About/About'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Headline1 from './components/Headline/Headline1'
 import Headline2 from './components/Headline/Headline2'
@@ -25,6 +26,7 @@ function App() {
       <Services2 />
       <WhyChoose />
       <Headline2 />
+      <Footer />
       <ScrollToTop />
       <Whatsapp />
 
