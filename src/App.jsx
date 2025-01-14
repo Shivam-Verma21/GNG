@@ -9,6 +9,7 @@ import Services2 from './components/Services/Services2'
 import Stats from './components/Stats/Stats'
 import What_we_do from './components/What_we_do/What_we_do'
 import Whatsapp from './components/Whatsapp/Whatsapp'
+import WhyChoose from './components/WhyChoose/WhyChoose'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Stats />
       <Services1 />
       <Services2 />
+      <WhyChoose />
       <ScrollToTop />
       <Whatsapp />
 
