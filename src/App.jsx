@@ -9,6 +9,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Services1 from './components/Services/Services1'
 import Services2 from './components/Services/Services2'
 import Stats from './components/Stats/Stats'
+import Testimonials from './components/Testimonials/Testimonials'
 import What_we_do from './components/What_we_do/What_we_do'
 import Whatsapp from './components/Whatsapp/Whatsapp'
 import WhyChoose from './components/WhyChoose/WhyChoose'
@@ -26,6 +27,7 @@ function App() {
       <Services2 />
       <WhyChoose />
       <Headline2 />
+      <Testimonials />
       <Footer />
       <ScrollToTop />
       <Whatsapp />

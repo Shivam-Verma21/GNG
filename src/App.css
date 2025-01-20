@@ -10512,7 +10512,7 @@ a.theme-btn.style-three {
   margin-right: 12px;
   border-radius: 50%;
   color: var(--ygency-primary-color);
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
 }
 .list-style-two li {
   font-size: 18px;
@@ -10536,7 +10536,7 @@ a.theme-btn.style-three {
   font-size: 1.2em;
   margin-right: 15px;
   color: var(--ygency-primary-color);
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
 }
 .social-style-one {
   flex-wrap: wrap;
@@ -10716,17 +10716,17 @@ a.theme-btn.style-three {
   background: #fff;
   border-radius: 50%;
 }
-.ratting {
+.rating {
   line-height: 1;
   align-items: center;
   display: inline-flex;
 }
-.ratting i {
+.rating i {
   margin: 3px;
   color: #f1b000;
   font-size: 14px;
 }
-.ratting.style-two i {
+.rating.style-two i {
   margin: 6px;
   font-size: 18px;
   color: var(--ygency-primary-color);
@@ -14183,30 +14183,30 @@ h6 {
 .slide-content h2 span {
   font-weight: 300;
 }
-.slide-content .ratting-btns {
+.slide-content .rating-btns {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-right: -50px;
 }
-.slide-content .ratting-btns .quyality-ratting {
+.slide-content .rating-btns .quyality-rating {
   margin-top: 20px;
   margin-right: 50px;
 }
-.slide-content .ratting-btns .quyality-ratting span {
+.slide-content .rating-btns .quyality-rating span {
   display: block;
   font-size: 14px;
   line-height: 1.5;
 }
-.slide-content .ratting-btns .quyality-ratting .ratting i {
+.slide-content .rating-btns .quyality-rating .rating i {
   font-size: 16px;
   color: var(--ygency-primary-color);
 }
-.slide-content .ratting-btns .theme-btn {
+.slide-content .rating-btns .theme-btn {
   margin-top: 20px;
   margin-right: 50px;
 }
-.slide-content .ratting-btns .read-more {
+.slide-content .rating-btns .read-more {
   margin-top: 20px;
 }
 .slide-content > * {
@@ -14226,7 +14226,7 @@ h6 {
 .slick-active .slide-content hr {
   animation-delay: 0.6s;
 }
-.slick-active .slide-content .ratting-btns {
+.slick-active .slide-content .rating-btns {
   animation-delay: 0.8s;
 }
 .main-slider-controls {
@@ -14591,7 +14591,7 @@ h6 {
   flex: none;
   color: #fff;
   content: "\f105";
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
 }
 .advertise-banner {
   display: flex;
@@ -17725,7 +17725,7 @@ blockquote .blockquote-footer:before {
   font-size: 18px;
   background: none;
   content: "\f061";
-  font-family: Font Awesome 6 Free;
+  font-family: "Font Awesome 6 Free";
 }
 .accordion-item .accordion-button:not(.collapsed):after {
   transform: rotate(90deg);
@@ -18197,10 +18197,10 @@ blockquote .blockquote-footer:before {
   font-size: 22px;
   line-height: 1.58;
 }
-.product-item .content .ratting-price .ratting i {
+.product-item .content .rating-price .rating i {
   color: #ff7425;
 }
-.product-item .content .ratting-price .ratting .price {
+.product-item .content .rating-price .rating .price {
   font-size: 22px;
   font-weight: 600;
   color: var(--ygency-primary-color);
@@ -18268,17 +18268,17 @@ blockquote .blockquote-footer:before {
 .product-details-content .section-title h2 {
   margin-bottom: 15px;
 }
-.product-details-content .ratting-price {
+.product-details-content .rating-price {
   display: flex;
   align-items: center;
 }
-.product-details-content .ratting-price .price {
+.product-details-content .rating-price .price {
   font-size: 24px;
   font-weight: 500;
   color: var(--ygency-primary-color);
   margin-left: 10px;
 }
-.product-details-content .ratting-price .price:before {
+.product-details-content .rating-price .price:before {
   content: "$";
 }
 .product-details-content .category-tags li:not(:last-child) {
@@ -18372,7 +18372,7 @@ blockquote .blockquote-footer:before {
 .product-information-tab li a.active {
   background: var(--ygency-primary-color);
 }
-.review-form .ratting b {
+.review-form .rating b {
   font-size: 20px;
   font-weight: 400;
   margin-right: 20px;
@@ -18435,7 +18435,7 @@ blockquote .blockquote-footer:before {
 }
 .work-step-item:after {
   content: "\f105";
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
   color: hsla(0, 0%, 100%, 0.3);
   position: absolute;
   left: calc(100% + 42px);
@@ -18977,11 +18977,11 @@ blockquote .blockquote-footer:before {
 .testimonials-two-active .slick-arrow:hover {
   opacity: 1;
 }
-.testimonial-three-dots .slick-dots li.slick-active,
+.testimonial-dots .slick-dots li.slick-active,
 .testimonial-two-dots .slick-dots li.slick-active {
   background: var(--ygency-primary-color);
 }
-.testimonial-item.style-three .ratting {
+.testimonial-item.style-three .rating {
   margin-left: -5px;
   margin-bottom: 20px;
 }
@@ -19032,26 +19032,26 @@ blockquote .blockquote-footer:before {
 .testimonial-controls.style-three .slick-arrow:hover {
   color: #fff;
 }
-.testimonial-three-dots {
+.testimonial-dots {
   margin-left: 35px;
   margin-right: 35px;
 }
-.testimonial-three-dots .slick-dots li {
+.testimonial-dots .slick-dots li {
   margin-left: 7px;
   margin-right: 7px;
 }
-.testimonial-three-next i,
-.testimonial-three-prev i {
+.testimonial-next i,
+.testimonial-prev i {
   transform: rotate(-45deg);
 }
-.testimonials-three-image {
+.testimonials-image {
   position: relative;
   z-index: 1;
 }
-.testimonials-three-image img {
+.testimonials-image img {
   width: 100%;
 }
-.testimonials-three-image:after {
+.testimonials-image:after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -19059,7 +19059,7 @@ blockquote .blockquote-footer:before {
   top: -50px;
   width: 65%;
   height: 85%;
-  background: url(../images/testi-three-bg-shape.f0b268bf.png) no-repeat 50% /
+  background: url(https://www.gnginnovation.com/_next/static/media/testi-three-bg-shape.f0b268bf.png) no-repeat 50% /
     cover;
 }
 .image-border-shape {
@@ -28875,7 +28875,7 @@ img.mfp-img {
   width: auto;
 }
 @font-face {
-  font-family: Font Awesome\5 Brands;
+  font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 400;
   font-display: block;
@@ -34496,7 +34496,7 @@ img.mfp-img {
   content: "\10f6ad";
 }
 @font-face {
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 300;
   font-display: block;
@@ -34511,7 +34511,7 @@ img.mfp-img {
   font-weight: 300;
 }
 @font-face {
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 400;
   font-display: block;
@@ -34531,7 +34531,7 @@ img.mfp-img {
   font-weight: 900;
 }
 @font-face {
-  font-family: Font Awesome\5 Pro;
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
@@ -34653,11 +34653,11 @@ i[class^="flaticon-"]:before {
 .thumb-images .nav-link {
   padding: 0;
 }
-.testimonial-three-dots .slick-dots .swiper-pagination-bullet-active,
+.testimonial-dots .slick-dots .swiper-pagination-bullet-active,
 .testimonial-two-dots .slick-dots .swiper-pagination-bullet-active {
   background: #55e6a5;
 }
-.testimonial-three-dots .slick-dots .swiper-pagination-bullet {
+.testimonial-dots .slick-dots .swiper-pagination-bullet {
   margin-left: 7px;
   margin-right: 7px;
 }
@@ -34676,7 +34676,7 @@ i[class^="flaticon-"]:before {
   text-align: center;
   margin: 100px auto 0;
 }
-.testimonial-three-dots .slick-dots li.slick-active,
+.testimonial-dots .slick-dots li.slick-active,
 .testimonial-two-part .slick-dots li.slick-active {
   background: var(--ygency-primary-color);
 }
@@ -34788,6 +34788,41 @@ i[class^="flaticon-"]:before {
   .logo-mobile-header {
     display: none !important;
   }
+}
+
+.testimonial-prev{
+  color: hsla(0, 0%, 100%, 0.65);
+  font-size: 30px;
+  background: transparent;
+}
+
+.testimonial-next{
+  color: hsla(0, 0%, 100%, 0.65);
+  font-size: 30px;
+  background: transparent;
+}
+
+.dot-testimonial {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(33, 33, 33);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot-testimonial.active{
+  background-color: rgb(85, 230, 165);
+}
+
+.custom-pagination{
+  display: flex;
+}
+
+.custom-pagination span{
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 /* .font-awesome::before{
