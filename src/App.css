@@ -10261,7 +10261,7 @@ input[type="radio"] {
   font-weight: 500;
   align-items: center;
   display: inline-flex;
-  color: var(--ygency-primary-color);
+  color: rgb(85 230 165);
   text-transform: capitalize;
 }
 .section-title .sub-title:before {
@@ -10457,7 +10457,7 @@ a.theme-btn.style-three {
   transform: rotate(-45deg);
 }
 .read-more:hover {
-  color: var(--ygency-primary-color);
+  color: rgb(85 230 165);
   text-decoration: underline;
 }
 .read-more:hover i {
@@ -10488,7 +10488,7 @@ a.theme-btn.style-three {
   left: calc(100% - 28px);
 }
 .read-more.color-primary {
-  color: var(--ygency-primary-color);
+  color: rgb(85 230 165);
 }
 .list-style-one li {
   display: flex;
@@ -10521,7 +10521,7 @@ a.theme-btn.style-three {
   margin-bottom: 8px;
 }
 .list-style-two li a:hover {
-  color: var(--ygency-primary-color);
+  color: #55e6a5;
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -14009,7 +14009,7 @@ h6 {
 }
 .hero-three-content .read-more {
   margin-top: 15px;
-  color: var(--ygency-primary-color);
+  color: rgb(255, 255, 255);
 }
 .hero-three-shape {
   z-index: -1;
@@ -14140,7 +14140,7 @@ h6 {
   align-items: center;
   margin-bottom: 20px;
   display: inline-flex;
-  color: var(--ygency-primary-color);
+  color: rgb(85, 230, 165);
   text-transform: capitalize;
 }
 .slide-content .sub-title:before {
@@ -14294,7 +14294,7 @@ h6 {
   line-height: 1;
   font-size: 180px;
   font-weight: 700;
-  color: var(--ygency-headline-color);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   display: flex;
   overflow: hidden;
@@ -14985,7 +14985,7 @@ h6 {
 .work-with-content .theme-btn,
 .work-with-content h2,
 .work-with-content p {
-  color: var(--ygency-dark-color);
+  color: rgb(2,5,10);
 }
 .work-with-content .theme-btn,
 .work-with-content .theme-btn:hover {
@@ -15157,7 +15157,7 @@ h6 {
   position: absolute;
   left: -300px;
   bottom: -400px;
-  background: var(--ygency-primary-color);
+  background: rgb(85, 230, 165);
   animation: zoomInOut 5s infinite;
 }
 .service-two-item {
@@ -15192,7 +15192,7 @@ h6 {
   line-height: 1;
   font-size: 60px;
   transition: 0.5s;
-  color: var(--ygency-primary-color);
+  color: rgb(85, 230, 165);
 }
 .service-two-item .icon-btn .more-btn {
   width: 50px;
@@ -15200,7 +15200,7 @@ h6 {
   line-height: 50px;
   text-align: center;
   background: #000;
-  color: var(--ygency-primary-color);
+  color: rgb(85, 230, 165);
   transform: translate(30px, -30px);
 }
 .service-two-item .icon-btn .more-btn > i {
@@ -15273,7 +15273,7 @@ h6 {
   line-height: 45px;
   text-align: center;
   display: inline-block;
-  color: var(--ygency-primary-color);
+  color: rgb(85, 230, 165);
   margin-right: 10px;
 }
 .service-two-item2 .content p {
@@ -16359,8 +16359,8 @@ blockquote .blockquote-footer:before {
   font-weight: 500;
 }
 .counter-item:hover .count-text {
-  color: var(--ygency-primary-color);
-  -webkit-text-stroke-color: var(--ygency-primary-color);
+  color: rgb(85, 230, 165);
+  -webkit-text-stroke-color: rgb(85, 230, 165);
 }
 .counter-item.style-two {
   transition: 0.5s;
@@ -17832,13 +17832,13 @@ blockquote .blockquote-footer:before {
   opacity: 0.75;
 }
 .what-we-do-item:hover {
-  border-bottom-color: #55e6a5;
+  border-bottom-color: rgb(85, 230, 165);
 }
 .what-we-do-item:hover .number span,
 .what-we-do-item:hover .number2 span {
-  color: #000;
-  background: #55e6a5;
-  border-color: #55e6a5;
+  color: rgb(0,0,0);
+  background: rgb(85, 230, 165);
+  border-color: rgb(85, 230, 165);
 }
 .what-we-do-item2 {
   padding-bottom: 35px;
@@ -17877,13 +17877,13 @@ blockquote .blockquote-footer:before {
   opacity: 0.95;
 }
 .what-we-do-item2:hover {
-  border-bottom-color: var(--ygency-primary-color);
+  border-bottom-color: rgb(85, 230, 165);
 }
 .what-we-do-item2:hover .number span,
 .what-we-do-item2:hover .number2 span {
   color: #000;
-  background: #55e6a5;
-  border-color: #55e6a5;
+  background: rgb(85, 230, 165);
+  border-color: rgb(85, 230, 165);
 }
 .what-we-do-area:after {
   z-index: -1;
@@ -17895,7 +17895,7 @@ blockquote .blockquote-footer:before {
   position: absolute;
   right: -300px;
   top: -130px;
-  background: var(--ygency-primary-color);
+  background: rgb(85, 230, 165);
   animation: zoomInOut 5s infinite;
 }
 .what-we-do-area:before {
@@ -19422,18 +19422,18 @@ blockquote .blockquote-footer:before {
   margin-right: 30px;
 }
 .footer-contact-info .phone-number {
-  color: var(--ygency-dark-color);
-  background: var(--ygency-primary-color);
-  border-color: var(--ygency-primary-color);
+  color: #02050a;
+  background: #55e6a5;
+  border-color: #55e6a5;
 }
 .footer-contact-info .phone-number:hover {
-  color: var(--ygency-secondary-color);
+  color: #fff;
   background: transparent;
-  border-color: var(--ygency-border-color);
+  border-color: hsla(0, 0%, 100%, 0.1);
 }
 @media only screen and (min-width: 1400px) {
   .footer-right-content {
-    border-left: 1px solid var(--ygency-border-color);
+    border-left: 1px solid hsla(0, 0%, 100%, 0.1);
     padding-left: 60px;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -19576,7 +19576,7 @@ blockquote .blockquote-footer:before {
   width: 160px;
 }
 .footer-top-two .social-style-four a:hover {
-  color: var(--ygency-primary-color);
+  color: #55e6a5;
   text-decoration: underline;
 }
 .footer-four .social-style-four {
@@ -19588,7 +19588,7 @@ blockquote .blockquote-footer:before {
   margin-right: 15px;
 }
 .footer-four .social-style-four a:hover {
-  color: var(--ygency-primary-color);
+  color: #55e6a5;
 }
 .footer-four .list-style-two li {
   font-size: 16px;
@@ -19619,7 +19619,7 @@ blockquote .blockquote-footer:before {
 .footer-five .footer-info .list-style-two li i {
   margin-top: 7px;
   margin-right: 13px;
-  color: var(--ygency-primary-color);
+  color: #55e6a5;
 }
 .footer-five .footer-info .list-style-two li a:hover {
   font-size: 24px;
@@ -34796,10 +34796,18 @@ i[class^="flaticon-"]:before {
   background: transparent;
 }
 
+.testimonial-prev:hover{
+  color: white;
+}
+
 .testimonial-next{
   color: hsla(0, 0%, 100%, 0.65);
   font-size: 30px;
   background: transparent;
+}
+
+.testimonial-next:hover{
+  color: white;
 }
 
 .dot-testimonial {
