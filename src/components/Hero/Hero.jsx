@@ -49,7 +49,7 @@ const Hero = () => {
                             <a href="" target="_blank">
                                 <i className="fab fa-instagram" /> <span>Instagram</span>
                             </a>
-                            <a className="a-icon cursor">
+                            <a className="" href="" target="_blank">
                                 <i className="fab fa-youtube" /> <span>Youtube</span>
                             </a>
                         </div>
