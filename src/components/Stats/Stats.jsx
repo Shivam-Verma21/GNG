@@ -64,7 +64,7 @@ const Stats = () => {
                     <div className="col-xl-2 col-lg-4 col-6">
                         <div className="counter-item counter-text-wrap">
                             {/* <i className="fal fa-check-circle" /> */}
-                            <i class="fa-regular fa-circle-check"></i>
+                            <i className="fa-regular fa-circle-check"></i>
                             <span
                                 ref={(el) => (spanRefs.current[0] = el)}
                                 className="count-text percent"
@@ -79,7 +79,7 @@ const Stats = () => {
                     <div className="col-xl-2 col-lg-4 col-6">
                         <div className="counter-item counter-text-wrap">
                             {/* <i className="fal fa-check-circle" /> */}
-                            <i class="fa-regular fa-circle-check"></i>
+                            <i className="fa-regular fa-circle-check"></i>
                             <span
                                 ref={(el) => (spanRefs.current[1] = el)}
                                 className="count-text plus"
@@ -94,7 +94,7 @@ const Stats = () => {
                     <div className="col-xl-2 col-lg-4 col-6">
                         <div className="counter-item counter-text-wrap">
                             {/* <i className="fal fa-check-circle" /> */}
-                            <i class="fa-regular fa-circle-check"></i>
+                            <i className="fa-regular fa-circle-check"></i>
                             <span
                                 ref={(el) => (spanRefs.current[2] = el)}
                                 className="count-text plus"
@@ -109,7 +109,7 @@ const Stats = () => {
                     <div className="col-xl-2 col-lg-4 col-6">
                         <div className="counter-item counter-text-wrap">
                             {/* <i className="fal fa-check-circle" /> */}
-                            <i class="fa-regular fa-circle-check"></i>
+                            <i className="fa-regular fa-circle-check"></i>
                             <span
                                 ref={(el) => (spanRefs.current[3] = el)}
                                 className="count-text percent"
